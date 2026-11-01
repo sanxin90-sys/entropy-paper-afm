@@ -66,4 +66,7 @@ Code: MIT (see `LICENSE`). Derived tables and figures: CC-BY-4.0. The derived ta
 
 ## Citation
 
-See `CITATION.cff`.
+Please cite the article (Agricultural and Forest Meteorology, submitted) and the Zenodo archive of this repository. Please also cite the data sources:
+
+- Vourlitis, G., Dalmagro, H., Nogueira, J. de S., Johnson, M., Arruda, P., 2026. AmeriFlux FLUXNET-1F BR-Npw Northern Pantanal Wetland, Ver. v1.3_r1 (2013-2017). AmeriFlux AMP. https://doi.org/10.17190/AMF/1881563
+- Meerdink, S.K., Hook, S.J., Roberts, D.A., Abbott, E.A., 2019. The ECOSTRESS spectral library version 1.0. Remote Sens. Environ. 230, 111196. https://doi.org/10.1016/j.rse.2019.05.015
