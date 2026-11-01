@@ -1,0 +1,8 @@
+term,c,b,range_Wm2
+"reflected SW, J = c SW_out^b",0.001412400866813209,0.9422510560226799,5-250
+"diffuse SW (global shape), J = c D^b",0.0013086545808436488,0.9428936190591086,5-600
+"diffuse SW (clear-sky shape), J = c D^b",0.000977086858655499,0.9480014276776912,5-300
+"direct beam, J = cos(z) c DNI^b",0.0008326205484713397,0.8227966193364362,20-1200 DNI
+skill: mean sigma simple vs spectral,0.4703054473618333,0.4690548308646229,
+skill: daytime R2 of half-hourly correction,0.9973237368341547,,
+skill: daytime RMSE of half-hourly sigma (W m-2 K-1),0.003100262748298753,,

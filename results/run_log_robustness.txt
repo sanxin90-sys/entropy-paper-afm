@@ -1,0 +1,27 @@
+C1 Erbs (reference): daytime diffuse share 0.396; sigma 0.4691; change vs A1 -0.0263
+C1 Erbs-Driesse: daytime diffuse share 0.390; sigma 0.4697; change vs A1 -0.0256
+C1 Boland: daytime diffuse share 0.450; sigma 0.4630; change vs A1 -0.0324
+C1 Orgill-Hollands: daytime diffuse share 0.397; sigma 0.4690; change vs A1 -0.0264
+C1 DIRINT: daytime diffuse share 0.417; sigma 0.4670; change vs A1 -0.0284
+C1 DISC: daytime diffuse share 0.417; sigma 0.4671; change vs A1 -0.0282
+C2 none: spectral correction of SW terms -0.0269 (wet -0.0339, dry -0.0216)
+C2 SW_IN +5 %: spectral correction of SW terms -0.0238 (wet -0.0305, dry -0.0186)
+C2 SW_IN -5 %: spectral correction of SW terms -0.0307 (wet -0.0378, dry -0.0253)
+C2 SW_OUT +5 %: spectral correction of SW terms -0.0254 (wet -0.0323, dry -0.0201)
+C2 SW_OUT -5 %: spectral correction of SW terms -0.0284 (wet -0.0355, dry -0.0230)
+C3 (4/3)F/T_sun for every stream (Article 1 core): sigma 0.4954 (+0.0000); wet-dry 0.0749
+C3 F/T_sun for every stream (= absorbed SW / T_sun): sigma 0.5063 (+0.0110); wet-dry 0.0765
+C3 Diluted blackbody for reflected only (Stephens & O'Brien form); incoming (4/3)F/T_sun: sigma 0.5278 (+0.0325); wet-dry 0.0795
+C3 Diluted blackbody for reflected and diffuse, beam (4/3)F/T_sun, Erbs split: sigma 0.4555 (-0.0399); wet-dry 0.0595
+C3 Spectral, fixed 50/50 direct/diffuse split (Holdaway-type split): sigma 0.4592 (-0.0362); wet-dry 0.0676
+C3 Spectral, Erbs split (Article 2 reference): sigma 0.4691 (-0.0263); wet-dry 0.0623
+C4 reflected J = 1.4124e-03 SWout^0.9423; diffuse(global) J = 1.3087e-03 D^0.9429; diffuse(clear) 9.7709e-04 D^0.9480; beam J = cos z 8.3262e-04 DNI^0.8228
+C4 skill: mean sigma simple 0.4703 vs spectral 0.4691; daytime R2 of the half-hourly correction 0.997; RMSE 0.0031
+C5 correction (W m-2 K-1) by daytime diffuse share (rows) and albedo (cols):
+albedo_day         0.083626  0.125438  0.167251  0.250877  0.334503
+diffuse_share_day                                                  
+0.197928            -0.0183   -0.0104   -0.0028    0.0119    0.0263
+0.296892            -0.0307   -0.0229   -0.0153   -0.0005    0.0138
+0.395855            -0.0423   -0.0345   -0.0269   -0.0121    0.0022
+0.476858            -0.0511   -0.0433   -0.0357   -0.0209   -0.0066
+0.542932            -0.0580   -0.0501   -0.0425   -0.0278   -0.0134
