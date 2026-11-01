@@ -1,0 +1,30 @@
+core sample n = 25662; Article 1 core sigma = 0.49536 (expected 0.49536)
+kt > 1 in 456 half-hours with the stamped geometry, 3 with geometry shifted -30 min
+clearness kt (day, shifted geometry): mean 0.513; diffuse share of daytime SW_IN (ratio of sums) 0.396; wet 0.426, dry 0.369
+J_SWin [ref] mean 0.11212
+J_SWin [unshifted geometry] mean 0.11194
+J_SWin [diffuse shape clear-sky only] mean 0.10457
+J_SWin [diffuse shape global only] mean 0.12499
+J_SWin [diffuse shape with ground light (tilted ASTM)] mean 0.11550
+J_SWin [circumsolar 0 %] mean 0.11056
+J_SWin [circumsolar 5 %] mean 0.11406
+J_SWin [circumsolar 10 %] mean 0.11697
+J_SWin [kd x 0.75] mean 0.10051
+J_SWin [kd x 1.25] mean 0.12089
+J_SWin [kd / 1.079 (Erbs bias, Abal et al. 2017)] mean 0.10883
+J_SWin [all SW_IN diffuse (upper bound)] mean 0.16790
+J_SWin [all SW_IN beam (lower bound)] mean 0.05922
+Article 1 core J_SWin 0.05261
+albedo-constrained mixture: green albedo 0.245, water 0.026; water fraction by month 1:0.38, 2:0.45, 3:0.42, 4:0.43, 5:0.43, 6:0.43, 7:0.42, 8:0.39, 9:0.38, 10:0.31, 11:0.31, 12:0.34
+J_SWout spectral (green median) mean 0.04139 vs Article 1 core 0.00879
+library spread of mean J_SWout (all 640 spectra): 0.03614-0.05244
+LW green: J_LWout 2.01032 (A1 2.00945); Ts mean 298.652 K (A1 298.511); 72 s
+LW npv: J_LWout 2.01032 (A1 2.00945); Ts mean 298.671 K (A1 298.511); 69 s
+LW soil: J_LWout 2.01032 (A1 2.00945); Ts mean 298.579 K (A1 298.511); 70 s
+LW water: J_LWout 2.01032 (A1 2.00945); Ts mean 298.540 K (A1 298.511); 73 s
+LW green_min: J_LWout 2.01031 (A1 2.00945); Ts mean 299.636 K (A1 298.511); 70 s
+LW green_max: J_LWout 2.01032 (A1 2.00945); Ts mean 298.437 K (A1 298.511); 70 s
+LW green, emissivity beyond 15.3 um +0.02: J_LWout 2.01032; Ts mean 298.594 K
+LW green, emissivity beyond 15.3 um -0.02: J_LWout 2.01031; Ts mean 298.710 K
+LW green window sky: J_LWout 2.01031; J_LWin(window) 1.87272 vs A1 core 1.87670; grey-sky J_LWin 1.87621
+done in 669 s

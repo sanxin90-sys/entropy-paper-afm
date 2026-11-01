@@ -1,0 +1,7 @@
+data/*.csv
+data/*.zip
+!data/article1_tables/*.csv
+scratch/
+__pycache__/
+*.pyc
+.pytest_cache/
